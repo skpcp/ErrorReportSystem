@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Attachment"
+            android:title="Attachment Management" />
+        <item
+            android:id="@+id/nav_History"
+            android:title="History Management" />
+        <item
+            android:id="@+id/nav_Permission"
+            android:title="Permission Management" />
+        <item
+            android:id="@+id/nav_Priority"
+            android:title="Priority Management" />
+        <item
+            android:id="@+id/nav_Project"
+            android:title="Project Management" />
+    </group>
+
+
+</menu>

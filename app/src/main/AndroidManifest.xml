@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Attachment.AttachmentManagmentActivity" />
+        <activity android:name=".Attachment.AttachmentManagementActivity" />
         <activity android:name=".Attachment.AttachmentGetAllActivity" />
         <activity android:name=".Attachment.AttachmentGetByIdActivity" />
         <activity android:name=".Attachment.AttachmentGetByFileNameActivity" />
@@ -26,7 +26,7 @@
         <activity android:name=".Attachment.AttachmentGetByNameActivity" />
         <activity android:name=".Attachment.AttachmentGetByTypeActivity" />
         <activity android:name=".Attachment.AttachmentSaveActivity" />
-        <activity android:name=".History.HistoryManagmentActivity" />
+        <activity android:name=".History.HistoryManagementActivity" />
         <activity android:name=".History.HistoryGetAllActivity" />
         <activity android:name=".History.HistoryGetByDateActivity" />
         <activity android:name=".History.HistoryGetByIdActivity" />
@@ -35,12 +35,31 @@
         <activity android:name=".History.HistoryRemoveActivity" />
         <activity android:name=".History.HistorySaveActivity" />
         <activity android:name=".History.HistorySaveWithAttachmentActivity" />
-        <activity android:name=".Permission.PermissionManagmentActivity" />
+        <activity android:name=".Permission.PermissionManagementActivity" />
         <activity android:name=".Permission.PermissionGetAllActivity" />
         <activity android:name=".Permission.PermissionGetByIdActivity" />
-        <activity android:name=".Permission.GetByNameActivity" />
         <activity android:name=".Permission.PermissionRemoveActivity" />
-        <activity android:name=".Permission.PermissionSaveActivity"></activity>
+        <activity android:name=".Permission.PermissionSaveActivity" />
+        <activity android:name=".Permission.PermissionGetByNameActivity" />
+        <activity android:name=".Priority.PriorityManagementActivity" />
+        <activity android:name=".Priority.PriorityGetAllActivity" />
+        <activity android:name=".Priority.PriorityGetByNameActivity" />
+        <activity android:name=".Priority.PriorityGetByIdActivity" />
+        <activity android:name=".Priority.PriorityChangeByNameActivity" />
+        <activity android:name=".Priority.PrioritySaveActivity" />
+        <activity android:name=".Priority.PriorityRemoveActivity" />
+        <activity android:name=".Project.ProjectManagementActivity" />
+        <activity android:name=".Project.ProjectGetAllActivity" />
+        <activity android:name=".Project.ProjectGetByIdActivity" />
+        <activity android:name=".Project.ProjectGetByNameActivity" />
+        <activity android:name=".Project.ProjectGetByPriorityActivity" />
+        <activity android:name=".Project.ProjectChangeNameActivity" />
+        <activity android:name=".Project.ProjectSaveActivity" />
+        <activity android:name=".Project.ProjectRemoveActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
