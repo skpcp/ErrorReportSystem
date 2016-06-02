@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Attachment.AttachmentManagementActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get all attachments"
+        android:id="@+id/btGetAllAttachments"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by id"
+        android:id="@+id/btGetAttachmentById"
+        android:layout_below="@+id/btGetAllAttachments"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by file name"
+        android:id="@+id/btGetAttachmentByFileName"
+        android:layout_below="@+id/btGetAttachmentById"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by mine type"
+        android:id="@+id/btGetAttachmentByMineType"
+        android:layout_below="@+id/btGetAttachmentByFileName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by mine type and name"
+        android:id="@+id/btGetAttachmentByMineTypeAndName"
+        android:layout_below="@+id/btGetAttachmentByMineType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetAttachmentByMineType"
+        android:layout_alignEnd="@+id/btGetAttachmentByMineType" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by name"
+        android:id="@+id/btGetAttachmentByName"
+        android:layout_below="@+id/btGetAttachmentByMineTypeAndName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get attachment by type"
+        android:id="@+id/btGetAttachmentByType"
+        android:layout_below="@+id/btGetAttachmentByName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetAttachmentByName"
+        android:layout_alignEnd="@+id/btGetAttachmentByName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save attachment"
+        android:id="@+id/btSaveAttachment"
+        android:layout_below="@+id/btGetAttachmentByType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetAttachmentByType"
+        android:layout_alignEnd="@+id/btGetAttachmentByType" />
+
+</RelativeLayout>

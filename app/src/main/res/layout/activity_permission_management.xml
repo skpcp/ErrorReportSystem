@@ -23,9 +23,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get permission by id"
-        android:id="@+id/btGetPermissionById"
-        android:layout_below="@+id/btGetAllPermissions"
+        android:text="Remove permission"
+        android:id="@+id/btRemovePermission"
+        android:layout_below="@+id/btSavePermission"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/btGetAllPermissions"
@@ -34,33 +34,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get permission by name"
-        android:id="@+id/btGetPermissionByName"
-        android:layout_below="@+id/btGetPermissionById"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/btGetPermissionById"
-        android:layout_alignEnd="@+id/btGetPermissionById" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Remove permission"
-        android:id="@+id/btRemovePermission"
-        android:layout_below="@+id/btGetPermissionByName"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/btGetPermissionByName"
-        android:layout_alignEnd="@+id/btGetPermissionByName" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Save permission"
         android:id="@+id/btSavePermission"
-        android:layout_below="@+id/btRemovePermission"
+        android:layout_below="@+id/btGetAllPermissions"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/btRemovePermission"
+        android:layout_alignEnd="@+id/btRemovePermission" />
 </RelativeLayout>
