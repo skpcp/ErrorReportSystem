@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bidzis.errorreportsystem">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +17,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ticket.TicketManagementActivity" />
+        <activity android:name=".Ticket.TicketGetAllActivity" />
+        <activity android:name=".Ticket.TicketGetByTicketIDActivity" />
+        <activity android:name=".Ticket.TicketGetByTicketTypeActivity" />
+        <activity android:name=".Ticket.TicketGetByTypeActivity" />
+        <activity android:name=".Ticket.TicketGetTicketsByPriorityActivity" />
+        <activity android:name=".Ticket.TicketGetTicketsByProjectActivity" />
+        <activity android:name=".Ticket.TicketGetTicketsByUserIDActivity" />
+        <activity android:name=".Ticket.TicketDeleteTicketByTicketIDActivity" />
+        <activity android:name=".Ticket.TicketSaveTicketActivity" />
+        <activity android:name=".Ticket.TicketSaveTicketWitchAttachmentsActivity" />
+        <activity android:name=".Ticket.TicketAddHistoryToTicketActivity" />
+        <activity android:name=".Role.RoleGetAllRoleActivity" />
+        <activity android:name=".Role.RoleManagementActivity" />
+        <activity android:name=".Role.RoleGetByRoleIDActivity" />
+        <activity android:name=".Role.RoleGetRoleByNameActivity" />
+        <activity android:name=".Role.RoleRemoveRoleByIDActivity" />
+        <activity android:name=".Role.RoleSaveRoleActivity"></activity>
     </application>
 
 </manifest>

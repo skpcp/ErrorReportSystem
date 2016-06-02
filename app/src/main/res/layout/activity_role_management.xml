@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bidzis.errorreportsystem.Role.RoleManagementActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get all role"
+        android:id="@+id/btGetAllRole"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET BY ROLE ID"
+        android:id="@+id/btGetByRoleID"
+        android:layout_below="@+id/btGetAllRole"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetAllRole"
+        android:layout_alignEnd="@+id/btGetAllRole" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get role by name"
+        android:id="@+id/btGetRoleByName"
+        android:layout_below="@+id/btGetByRoleID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetByRoleID"
+        android:layout_alignEnd="@+id/btGetByRoleID" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remove role by id"
+        android:id="@+id/btRemoveRoleByID"
+        android:layout_below="@+id/btGetRoleByName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btGetRoleByName"
+        android:layout_alignEnd="@+id/btGetRoleByName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save role"
+        android:id="@+id/btSaveRole"
+        android:layout_below="@+id/btRemoveRoleByID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btRemoveRoleByID"
+        android:layout_alignEnd="@+id/btRemoveRoleByID" />
+</RelativeLayout>
